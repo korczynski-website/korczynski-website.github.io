@@ -1,17 +1,12 @@
 /* =================================================
-
 Template Name:  Personal Portfolio HTML Template
 Author: MouriTheme
 Version: 1.0
 Design and Developed by: MouriTheme
-
 NB: This file contains the styling for the actual theme, this is the file you need to edit to change the look of the theme.
-
 =================================================== */
 
 /*Table of Content
-
-
     1. Default css
     2. Preloader css
     3. Mouse Animation css
@@ -25,10 +20,6 @@ NB: This file contains the styling for the actual theme, this is the file you ne
     11. Contact Area css
     12. Brand Area css
     13. Footer Area css
-
-
-
-
 */
 
 /*--- 1. Default css strats---*/
@@ -897,14 +888,6 @@ canvas{
     padding: 5%;
 }
 
-
-#contact-form textarea{display:block;width:100%;padding:10px;border-radius:4px;border:none;margin-bottom:10px;background:#1d6fa5;color:#fff;transition:.5s ease all}
-#contact-form input::-webkit-input-placeholder,#contact-form textarea::-webkit-input-placeholder{color:#fff}#contact-form input:-moz-placeholder,
-
-#contact-form button{display:block;width:100%;background:#fff;border-radius:4px;padding:5px 10px;border:none;color:#3498db;font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:.5s ease all}
-
-
-
 .single-contact i {
     font-size: 30px;
     color: #E91E63;
@@ -996,19 +979,3 @@ canvas{
 }
 
 /*--------------- Footer area ends -------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
