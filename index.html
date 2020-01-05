@@ -844,40 +844,23 @@
             <div class="row">
 
                 <div class="col-md-10 col-md-offset-1">
-                    <form id="contact-form" method="post" action="contact.php" class="wow fadeInDown" data-wow-delay="1.2s">
+                    <form
+  action="https://formspree.io/mjvgdzwl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
 
-                        <div class="messages"></div> <!--you can change the message in contact.php file -->
+  <!-- your other form fields go here -->
 
-                        <div class="controls">
-
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Wprowadź swoje imię i nazwisko *" required="required" data-error="Fullname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Wprowadź swój email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Twoja wiadomość *" rows="4" required="required" data-error="Leave a message for me"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <button class="btn btn-send" value="">Wyślij wiadomość</button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </form>
+  <button type="submit">Send</button>
+</form>
                 </div>
 
             </div>
