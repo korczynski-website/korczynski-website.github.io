@@ -844,7 +844,7 @@
            <div class="row">
 
                 <div class="col-md-10 col-md-offset-1">
-                    <form id="contact-form" method="post" action="https://formspree.io/mjvgdzwl" class="wow fadeInDown" data-wow-delay="1.2s">
+                    <form id="contact-form" action="https://formspree.io/mjvgdzwl" method="POST" class="wow fadeInDown" data-wow-delay="1.2s">
 
                         <div class="messages"></div> <!--you can change the message in contact.php file -->
 
@@ -859,7 +859,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Wprowadź swój email *" required="required" data-error="Valid email is required.">
+                                        <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Wprowadź swój email *" required="required" data-error="Valid email is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -872,7 +872,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-					<input class="btn btn-send" type="Wyślij wiadomość" value="Send">
+					<input type="Wyślij wiadomość" value="Send">
                                     
                                 </div>
                             </div>
